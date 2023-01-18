@@ -3,3 +3,16 @@
     left: 0;
     top: 245px;   
 }
+.info-title-box-contact{
+    display: block;
+}
+.build-text-box-contact{
+    display: flex;
+    align-items: center;
+}
+.build-box-two-contact{
+    width: 100%;
+}
+.myteam-info-contact{
+    padding-bottom: 142px;
+}
