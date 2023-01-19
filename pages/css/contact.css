@@ -1,18 +1,65 @@
-.header-oval-one{
-    position: absolute;
-    left: 0;
-    top: 245px;   
+.header-oval-one {
+  position: absolute;
+  left: 0;
+  top: 245px;
 }
-.info-title-box-contact{
-    display: block;
+.info-title-box-contact {
+  display: block;
 }
-.build-text-box-contact{
-    display: flex;
-    align-items: center;
+.build-text-box-contact {
+  display: flex;
+  align-items: center;
 }
-.build-box-two-contact{
-    width: 100%;
+.build-box-two-contact {
+  width: 100%;
 }
-.myteam-info-contact{
-    padding-bottom: 142px;
+.myteam-info-contact {
+  padding-bottom: 142px;
+}
+.info-form {
+  /* display: flex; */
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form-inp::placeholder {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: -0.11538461595773697px;
+  text-align: left;
+  color: #ffffff;
+}
+.contact-form-inp {
+  width: 540px;
+  padding: 16px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  opacity: 60%;
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+.tx-area{
+    padding-bottom: 58px;
+}
+.btn-submit {
+  height: 48px;
+  width: 123px;
+  border-radius: 24px;
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: #004047;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  cursor: pointer;
+}
+.btn-submit:hover{
+    background-color: transparent;
+    color: #fff;
 }
