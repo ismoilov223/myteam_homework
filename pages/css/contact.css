@@ -16,9 +16,6 @@
 .myteam-info-contact {
   padding-bottom: 142px;
 }
-.info-form {
-  /* display: flex; */
-}
 .form {
   display: flex;
   flex-direction: column;
