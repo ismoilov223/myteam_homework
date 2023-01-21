@@ -408,7 +408,6 @@ body {
     width: 600px !important;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
   .myteam-info{
     display: flex;
@@ -431,13 +430,15 @@ body {
   .employes-title{
     font-size: 30px;
   }
+  .ready-title{
+      font-size: 32px !important;
+  }
 }
 @media (max-width: 768px) {
   .max-wdth {
     width: 683px !important;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
   .myteam-info{
     display: flex;
@@ -474,7 +475,26 @@ body {
   .employes-title{
     font-size: 30px;
   }
-  .hr{
+  .hr-none{
     display: none;
+  }
+  .ready-title{
+      font-size: 32px !important;
+  }
+  .ready-box-max{
+    padding: 94px 0  !important;
+    padding-top: 76px !important;
+  }
+  .build-box-one{
+    width: 75%;
+  }
+  .build-box-two{
+    width: 100%;
+  }
+  .build-oval-one{
+    top: 0;
+  }
+  .build-max-wdth{
+    gap: 60px;
   }
 }
