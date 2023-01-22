@@ -120,6 +120,7 @@ body {
 .bg-clr-all {
   width: 100%;
   position: relative;
+  overflow: hidden;
 }
 .man-img-radius {
   height: 62px;
@@ -276,7 +277,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  padding-bottom: ;
+  /* padding-bottom: ; */
 }
 .employes-card {
   width: 30%;
@@ -509,7 +510,7 @@ body {
     width: 600px !important;
   }
   .nav-list {
-    display: none;
+    display: none !important;
   }
 }
 @media (max-width: 630px) {

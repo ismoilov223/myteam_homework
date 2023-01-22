@@ -115,3 +115,43 @@
   /* height: 28px; */
 }
 /* Clients end! */
+@media (max-width: 1150px){
+  .clients-box{
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    
+  }
+}
+@media (max-width: 784px){
+  .max-wdth {
+    width: 703px !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .met-crd-rds-box{
+    left: 112px !important;
+    right: 112px !important;
+  }
+}
+@media (max-width: 768px){
+  .max-wdth {
+    width: 623px !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .meet-cards-box{
+    gap: 11px;
+    justify-content: center;
+  }
+  .met-crd-txt-box{
+    width: 281px;
+  }
+  .clients-oval-left{
+    top: -100px;
+  }
+  .clients-logo{
+    width: 100px;
+  }
+}
